@@ -22,9 +22,9 @@ const Header = () => {
       } fixed w-full right-0 left-0 z-10 transition-all duration-300`}
     >
       <div className="container mx-auto flex justify-between items-center">
-        <a href="#">
+        {/* <a href="#"> */}
           <img src={Logo} alt="logo" />
-        </a>
+        {/* </a> */}
         <div className="hidden lg:flex">
           <Nav />
         </div>
